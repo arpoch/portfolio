@@ -1,0 +1,29 @@
+
+.NavBar{
+    position: fixed;
+    display: block;
+    align-self: flex-end;
+    padding: 1em 0px 1em 0px;
+}
+
+.NavElement{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    gap: 0px 10px;
+}
+
+.NavLink{
+    color: #FFFF;
+    font-size: clamp(0.5em,1.2em,2em);
+    font-family: 'Roboto Slab', serif;
+    padding: 5px;
+}
+
+.NavBtn{
+    border: #FFCB42 1px solid;
+    color: #FFCB42;
+    border-radius: 5px;
+    padding: 5px;
+}

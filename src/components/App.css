@@ -1,0 +1,23 @@
+.App { 
+    display: grid;
+}
+
+.layout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto 5%;
+}
+
+/* .NavBar{
+    grid-area: header;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.SocialBar{
+    grid-area: sidebar;
+    grid-column: -1; */
+    /* grid-row: 3;
+} 
+*/

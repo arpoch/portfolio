@@ -1,0 +1,53 @@
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #277BC0;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Roboto Slab', serif;
+    color: #FFCB42;
+    margin: 0;
+    /* flex-basis: 100%; */
+    line-height: 100%;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #FFF4CF;
+    margin: 0;
+    /* flex-basis: 100%; */
+    line-height: 100%;
+}
+
+h4{
+    font-size: 1rem;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    margin: 0;
+    /* flex-basis: 100%; */
+}
+
+.title-box{
+}
+
+.contact-box{
+    
+}
+
+.contact-btn{
+    background-color: transparent;
+    color: #ffffff;
+    /* border-radius: 5px; */
+    padding: 1.25rem 2.75rem;
+}
+
+.contact-btn:hover{
+    background-color: #ffb700;
+}
